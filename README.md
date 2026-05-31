@@ -40,8 +40,15 @@ Email spam is a persistent problem affecting millions of users worldwide. This p
 - Lemmatization
 - TF-IDF vectorization
 - Word embeddings
+- <img width="636" height="352" alt="image" src="https://github.com/user-attachments/assets/33e402c7-5b7d-49f1-9388-fc1096c3e55b" />
+<img width="636" height="352" alt="image" src="https://github.com/user-attachments/assets/470e2d0e-539a-4ae7-8ea3-f35500e6fec8" />
+
 
 ✅ **Model Evaluation**
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/4551173b-dfe8-4601-838b-f49665a7cfe2" />
+<img width="1359" height="740" alt="image" src="https://github.com/user-attachments/assets/80f0e337-7183-4a1e-91db-12f8de6c4bd5" />
+
 - Accuracy, Precision, Recall, F1-Score
 - Confusion Matrix
 - ROC-AUC Curve
