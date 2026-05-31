@@ -133,8 +133,6 @@ python src/evaluate_models.py
 
 Generates:
 - Performance metrics comparison
-- Confusion matrices
-- ROC-AUC curves
 - Feature importance analysis
 
 ### 5. Prediction on New Email
@@ -147,21 +145,8 @@ python src/predict.py --email "your email text here"
 
 ### Machine Learning Models
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| Naive Bayes | 96.2% | 95.8% | 96.5% | 96.1% |
-| SVM | 97.1% | 97.3% | 96.8% | 97.0% |
-| Logistic Regression | 96.8% | 96.9% | 96.6% | 96.7% |
-| Random Forest | 97.4% | 97.6% | 97.1% | 97.3% |
-| Decision Trees | 95.9% | 95.6% | 96.2% | 95.9% |
 
-### Deep Learning Models
 
-| Model | Accuracy | Precision | Recall | F1-Score | Training Time |
-|-------|----------|-----------|--------|----------|----------------|
-| ANN | 96.5% | 96.7% | 96.3% | 96.5% | ~45s |
-| LSTM | 97.6% | 97.8% | 97.4% | 97.6% | ~120s |
-| CNN | 96.9% | 97.1% | 96.7% | 96.9% | ~90s |
 
 ## Results
 
@@ -169,51 +154,16 @@ python src/predict.py --email "your email text here"
 
 - **Best Performing Model**: LSTM with **97.6% accuracy**
 - **Fastest Model**: Logistic Regression (inference time: <1ms)
-- **Most Robust**: Random Forest (consistent performance across folds)
-- **Overall Winner for Production**: LSTM (balance of accuracy and speed)
+  
 
 ### Visualizations
 
 The project generates comprehensive visualizations:
 - Accuracy comparison bar charts
-- Confusion matrices for each model
-- ROC-AUC curves
 - Learning curves
 - Feature importance plots
 
-## Project Structure
 
-```
-Detecting-Spam-Emails-Using-Machine-Learning-and-deep-learning/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/
-│   │   └── emails.csv
-│   └── processed/
-│       └── features.pkl
-├── src/
-│   ├── preprocessing.py
-│   ├── train_ml_models.py
-│   ├── train_dl_models.py
-│   ├── evaluate_models.py
-│   ├── predict.py
-│   └── utils.py
-├── models/
-│   ├── ml_models/
-│   │   ├── naive_bayes.pkl
-│   │   ├── svm_model.pkl
-│   │   └── random_forest.pkl
-│   └── dl_models/
-│       ├── ann_model.h5
-│       ├── lstm_model.h5
-│       └── cnn_model.h5
-├── notebooks/
-│   ├── eda.ipynb
-│   └── analysis.ipynb
-└── results/
-    ├── metrics.json
-    └── visualizations/
 ```
 
 ## Requirements
