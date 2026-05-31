@@ -198,7 +198,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-**Mudassar Ahmad** - mudassar2224
+**Muhammad Mudassar**
 
 ## Acknowledgments
 
